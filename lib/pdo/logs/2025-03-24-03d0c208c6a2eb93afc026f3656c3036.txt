@@ -1,0 +1,151 @@
+Time : 16:38:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':)' at line 2
+Raw SQL : INSERT INTO `registerusers` (``)
+			VALUES (:)
+
+Time : 06:14:20
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:14:03
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:14:03
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:14:03
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:14:02
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:14:02
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:14:01
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:11:55
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:11:38
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:11:32
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:11:28
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:53
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:39
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:39
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:39
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:39
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:34
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:32
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:03
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:03
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:10:02
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:09:48
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:09:38
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:09:28
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:09:24
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:09:19
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:09:14
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:09:12
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:08:57
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:08:56
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:08:51
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:08:28
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:08:20
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:03:21
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:03:05
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:02:47
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:01:46
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 06:01:22
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:58:16
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:55:39
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:55:38
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:55:38
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:55:30
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:55:30
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:55:29
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:51:55
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:51:51
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:51:38
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'
+
+Time : 05:51:29
+SQLSTATE[HY000] [1049] Unknown database 'webhook-handler'

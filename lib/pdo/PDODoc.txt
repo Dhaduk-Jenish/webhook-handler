@@ -1,0 +1,47 @@
+PDO Library Document
+
+(*) is required query for maintain code structure if it's not fullfill your requirement and complicated query structure than use second option
+
+
+$DB main object of PDO Connection
+
+
+LAST INSERTEDID ================================================================================================================>
+
+$DB->lastInsertId();
+
+SELECT =========================================================================================================================> 
+
+	with where condition
+1*) $DB->query("SELECT * FROM TableName WHERE name=:name and color=:color",array('name'=>'mango','color'=>'yellow')); (VALUE Arry)
+	return array value of record
+
+2) $DB->query("SELECT * FROM TableName");
+	return array value of record
+	
+3) $DB->row("SELECT * FROM TableName WHERE name=? and color=?",array('apple','red'))
+	return single row record
+
+	
+INSERT =============================================================================================================================> 
+1*) $DB->insert("TableName",array("name"=>"chcihci","color"=>"purple")); (Tabele Name,INSERT Field Arry)
+	return last inserted id
+2) $DB->query("INSERT INTO fruit(id,name,color) VALUES(:id,:name,:color)", array("color"=>$color,"name"=>$fruits,"id"=>null)); (VALUE Arry)
+    return effected row
+	
+UPDATE ==============================================================================================================================>
+
+1*) $DB->update("TableName",array("color"=>"yellow"),array("id"=>2));  (Tabele Name,UPDATE Field Arry, WHERE condition Array)
+    return number of effected row
+
+2) $DB->query("UPDATE TableName SET color = :color WHERE name = :name", array("name"=>"strawberry","color"=>"yellow")); (VALUE Arry)
+    return number of effected row
+	
+DELETE ==============================================================================================================================>
+
+1) $DB->query("DELETE FROM TableName WHERE id = :id", array("id"=>"1"));
+   return number of effected row
+
+
+
+
