@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 24, 2025 at 07:11 AM
+-- Generation Time: Mar 25, 2025 at 05:49 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -68,6 +68,33 @@ CREATE TABLE `registerusers` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `registerusers_subscription`
+--
+
+CREATE TABLE `registerusers_subscription` (
+  `user_id` int(6) NOT NULL,
+  `plan_id` int(6) NOT NULL,
+  `plan_status` tinyint(1) NOT NULL DEFAULT 1 COMMENT '1 = Active, 0 = Deactive',
+  `customer_id` char(100) NOT NULL COMMENT 'stripe cusId',
+  `subscription_id` char(100) NOT NULL COMMENT 'stripe SubId',
+  `price_id` char(100) NOT NULL COMMENT 'stripe PriceId',
+  `plan_interval` char(50) NOT NULL,
+  `plan_signaturelimit` int(11) NOT NULL,
+  `period_start` int(12) NOT NULL,
+  `period_end` int(12) NOT NULL,
+  `invoice_amount` int(6) NOT NULL,
+  `invoice_link` varchar(500) NOT NULL,
+  `apply_coupon` int(6) NOT NULL,
+  `auto_renew` tinyint(1) NOT NULL DEFAULT 0 COMMENT '0=on,1=off',
+  `free_trial` tinyint(1) NOT NULL COMMENT '1=freetrial',
+  `plan_cancel` tinyint(1) NOT NULL COMMENT '1 =canceled',
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `stripe_webhook`
 --
 
@@ -99,6 +126,12 @@ ALTER TABLE `git_commit_data`
 --
 ALTER TABLE `registerusers`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `registerusers_subscription`
+--
+ALTER TABLE `registerusers_subscription`
+  ADD KEY `user_id` (`user_id`);
 
 --
 -- Indexes for table `stripe_webhook`
